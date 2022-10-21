@@ -14,8 +14,13 @@ val PlayFair = FontFamily(
     Font(R.font.playfair_display_italic, FontWeight.Thin),
     Font(R.font.playfair_display_regular, FontWeight.Normal)
 )
+val Poppins = FontFamily(
+    Font(R.font.poppins_bold, FontWeight.Bold),
+    Font(R.font.poppins_italic, FontWeight.Thin),
+    Font(R.font.poppins_regular, FontWeight.Normal)
+)
 val Typography = Typography(
-    defaultFontFamily = PlayFair,
+    defaultFontFamily = Poppins,
     h4 = TextStyle(
         fontWeight = FontWeight.Bold,
         fontSize = 30.sp
